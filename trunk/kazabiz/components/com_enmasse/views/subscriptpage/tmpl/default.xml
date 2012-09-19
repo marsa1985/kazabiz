@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Subscription page">
+		<message><![CDATA[To Display the Subscription page]]></message>
+	</layout>
+	<view title="Subscription page" >
+		<message><![CDATA[To Display the Subscription page]]></message>
+	</view>
+	<state>
+		<name>Subscription page</name>
+		<description>To Display the Subscription page</description>
+	
+		<name>Subscription page</name>
+		<description><![CDATA[To Display the Subscription page]]></description>
+		<params>
+			<param name="subscribe_module_id" type="text" default=" " label="Subscribe Module Id" description="Enter Subscribe Module Id">
+			</param>
+			<param name="term_id" type="text" label="Term/condition article Id"
+			description="Term and condition article Id" class="inputbox"/>
+			<param name="policy_id" type="text" label="Privacy policy article Id"
+			description="Privacy policy  article Id" class="inputbox"/>
+			<param name="condition_apply_id" type="text" label="Conditions apply article Id" 
+			description="Conditions apply article Id" class="inputbox"/>
+			<param name="mission_module_id" type="text" label="Mission Module Id"
+			description="Mission Module Id" class="inputbox"/>
+		</params>
+	</state>
+	
+	<fields name="params">
+		<fieldset name="basic" label="Basic Parameters">
+		<field name="subscribe_module_id" type="text" label="Subscribe Module Id"
+		description="Enter Subscribe Module Id" class="inputbox"/>
+		<field name="term_id" type="text" label="Term/condition article Id"
+		description="Term and condition article Id" class="inputbox"/>
+		<field name="policy_id" type="text" label="Privacy policy article Id"
+		description="Privacy policy  article Id" class="inputbox"/>
+		<field name="condition_apply_id" type="text" label="Conditions apply article Id" 
+		description="Conditions apply article Id" class="inputbox"/>
+		<field name="mission_module_id" type="text" label="Mission Module Id"
+		description="Mission Module Id" class="inputbox"/>
+		
+		
+		</fieldset>
+	</fields>
+</metadata>
+

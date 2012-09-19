@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ENMASSE_MERCHANT_VIEW_DEFAULT_TITLE">
+		<message>COM_ENMASSE_MERCHANT_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="Merchant" >
+		<message><![CDATA[For Merchant to check if the coupon is valid]]></message>
+	</view>
+	<state>
+		<name>Merchant</name>
+		<description>For Merchant to check if the coupon is valid</description>
+	</state>
+</metadata>
+

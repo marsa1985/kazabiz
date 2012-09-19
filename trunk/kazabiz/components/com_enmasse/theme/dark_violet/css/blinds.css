@@ -1,0 +1,18 @@
+.slideshow{width: 400px; position: relative;}
+.slideshow ul{list-style: none; margin: 0; overflow: hidden; }
+.slideshow li{float: left; position: absolute; top: 0; left: 0;}
+.change_link {
+	display: block;
+	width: 20px;
+	height: 20px;
+	font-size: 12pt;
+	background-color: #c7ebf9;
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	margin-top: 13px;
+	border: 1px solid #5b3e60;
+	text-decoration: none;
+	color: #3570a8;
+}
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ENMASSE_DEALTODAY_VIEW_DEFAULT_TITLE">
+		<message>COM_ENMASSE_DEALTODAY_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="Deal of the Day" >
+		<message><![CDATA[To Display the Special Deal of the Day]]></message>
+	</view>
+	<state>
+		<name>Deal of the Day</name>
+		<description>To Display the Special Deal of the Day</description>
+	</state>
+</metadata>
+

@@ -1,0 +1,43 @@
+.acysubbuttons {display:none;}
+
+.subscript-main-content{
+	 position: absolute;
+	 z-index: 1000;
+	 width: 100%;
+	 height: 150%;
+	 right:0;
+	 top:0; 
+	 background: url("../images/main-sub-bg.png") repeat-x; 
+	 }
+.subscript-main-content .subscript-content{ 
+	width: 500px; 
+	height: 300px;
+	position: absolute;
+	top: 40%;
+	margin-top: -150px;
+	left: 45%;
+	margin-left: -250px;}
+
+.subscript-main-content .subscript-content .subscript-content-top{ 
+	background: url("../images/sub-blue-bg-top.png") no-repeat; 
+	width: 500px; 
+	height: 25px;
+	float:left;
+	}
+.subscript-main-content .subscript-content .subscript-content-mid{ 
+	background: url("../images/sub-blue-bg-mid.png") repeat-y; 
+	width: 500px; 
+	height: auto;
+	float:left;
+	}
+.subscript-main-content .subscript-content .subscript-content-bottom{ 
+	background: url("../images/sub-blue-bg-bottom.png") no-repeat; 
+	width: 500px; 
+	height: 25px;
+	float:left;
+	}
+.subscript-main-content .subscript-content .bottom_locationlist{margin-right: 50px;margin-top: 30px;}
+#choose_location_title {margin-left: 20px;height: 30px;}
+.subscript-main-content .subscript-content input { margin-top: 20px; width: 300px;margin-left: 100px;}
+.subscript-main-content .subscript-content select { margin-top: 20px;width: 300px;margin-left: 100px;}
+#acymailing-container{float: left;}

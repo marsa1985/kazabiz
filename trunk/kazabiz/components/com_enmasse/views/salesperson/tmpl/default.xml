@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ENMASSE_SALESPERSON_VIEW_DEFAULT_TITLE">
+		<message>COM_ENMASSE_SALESPERSON_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="My Sales" >
+		<message><![CDATA[For Sales Person to login to manage their sales]]></message>
+	</view>
+	<state>
+		<name>My Sales</name>
+		<description>For Sales Person to login to manage their sales</description>
+	</state>
+</metadata>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+<metadata>
+	<view title="Deal of the Day" >
+		<message><![CDATA[To Display the Special Deal of the Day]]></message>
+	</view>
+	<state>
+		<name>Deal of the Day</name>
+		<description>To Display the Special Deal of the Day</description>
+	</state>
+</metadata>

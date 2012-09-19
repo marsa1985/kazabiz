@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ENMASSE_DELIVERER_VIEW_DEFAULT_TITLE">
+		<message><![CDATA[For Deliverer to login to manage their delivery]]></message>
+	</layout>
+	<state>
+		<name>Deliverer</name>
+		<description>For Deliverer to login to manage their delivery</description>
+	</state>
+</metadata>
+

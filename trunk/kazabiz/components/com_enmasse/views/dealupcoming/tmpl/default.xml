@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ENMASSE_UPCOMING_VIEW_DEFAULT_TITLE">
+		<message>COM_ENMASSE_UPCOMING_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="Upcoming Deal" >
+		<message><![CDATA[To list deals that have yet started]]></message>
+	</view>
+	<state>
+		<name>Upcoming Deal</name>
+		<description>To list deals that have yet started</description>
+	</state>
+</metadata>
+

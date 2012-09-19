@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+<metadata>
+	<view title="Deliverer" >
+		<message><![CDATA[For Deliverer to login to manage their delivery]]></message>
+	</view>
+	<state>
+		<name>Deliverer</name>
+		<description>For Deliverer to login to manage their delivery</description>
+	</state>
+</metadata>
