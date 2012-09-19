@@ -1,0 +1,69 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<style type="text/css">
+
+div#couponImage 
+{
+	z-index:-100px;
+	width: 100%;
+	height: 100%;   
+    position: relative;
+    overflow: hidden;
+    background: url(http://lapnguyen/enma2/components/com_enmasse/upload/18040samplecoupon.png) no-repeat left top}
+div#couponImage div#couponInfo 
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width: 100%;
+	height: 100%;
+	z-index:100px;
+}
+div#button{margin-top: 30px}
+</style>
+
+<style type="text/css" media="print" >
+
+div#couponImage 
+{
+	z-index:-100px;
+	width: 100%;
+	height: 100%;   
+    position: relative;
+    overflow: hidden;
+    background-image:none;
+     background: url(http://lapnguyen/enma2/components/com_enmasse/upload/18040samplecoupon.png) no-repeat left top}
+div#couponImage div#couponInfo 
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width: 100%;
+	height: 100%;
+	z-index:100px;
+}
+div#button{margin-top: 30px}
+</style>
+<script type="text/javascript" src="http://lapnguyen/enma2/media/system/js/mootools-core.js"></script>
+<script type="text/javascript" src="http://lapnguyen/enma2/media/system/js/mootools-more.js"></script>
+<div id="couponImage"">
+	<div id="couponInfo">
+<div id="1" name="dealName" style="position: absolute; left:30px; top:137px; font-size:20px; width:615px; height:64px;overflow:hidden;">C$15 for C$30 Worth of Sports Apparel and Memorabilia</div><div id="2" name="serial" style="position: absolute; left:379px; top:66px; font-size:12px; width:250px; height:50px;overflow:hidden;"><img src="http://lapnguyen/enma2/index.php?option=com_enmasse&controller=barcode&task=generateBarcode&num=1-27-1-04628"/></div><div id="3" name="merchantName" style="position: absolute; left:346px; top:248px; font-size:14px; width:300px; height:49px;overflow:hidden;">Maverick Sports & Collectables</div><div id="4" name="highlight" style="position: absolute; left:34px; top:322px; font-size:10px; width:277px; height:45px;overflow:hidden;"><p>nt Team apparel, bygone baubles &amp; souvenirs delight athletic devotees of all ages; games &amp; dart supplies enable home-generated recreation</p></div><div id="5" name="personName" style="position: absolute; left:32px; top:248px; font-size:14px; width:280px; height:50px;overflow:hidden;">Super User</div><div id="6" name="term" style="position: absolute; left:349px; top:324px; font-size:10px; width:294px; height:40px;overflow:hidden;"><ul>
+
+<li>Expires May5555, 2012</li>
+<li>Limit 1 per person, may buy 1 additional as a gift. Limit 1 per order. Extra fee for shipping.</li>
+<li>See the rules that apply to all deals.</li>
+</ul></div></div>
+</div>
+<script type="text/javascript">
+	function printContent(id){
+		document.getElementById('button').style.display = 'none';
+		window.print();
+		document.getElementById('button').style.display = 'inline';
+	}
+</script>
+	<div id="button">
+	<form>
+		<input type="button" value="Print Coupon" onClick="printContent('content')">
+	</form>
+
+	</div>

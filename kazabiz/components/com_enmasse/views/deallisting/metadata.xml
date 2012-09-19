@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<view title="List of Deal" >
+		<message><![CDATA[To list all the deal according to the end date.]]></message>
+	</view>
+	<state>
+		<name>List of Deal</name>
+		<description>To list all the deal according to the end date.</description>
+	</state>
+</metadata>

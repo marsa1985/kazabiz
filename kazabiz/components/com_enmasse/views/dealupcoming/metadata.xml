@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+<metadata>
+	<view title="Upcoming Deal" >
+		<message><![CDATA[To list deals that have yet started]]></message>
+	</view>
+	<state>
+		<name>Upcoming Deal</name>
+		<description>To list deals that have yet started</description>
+	</state>
+</metadata>

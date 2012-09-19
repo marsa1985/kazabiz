@@ -1,0 +1,1 @@
+ALTER TABLE  `#__enmasse_setting` ADD  `cash_minute_release_invty` INT NOT NULL AFTER  `minute_release_invty`

@@ -1,0 +1,403 @@
+body, label{
+	font-size: 80%;
+	font-family: Arial, sans-serif;
+	color:#414141;
+}
+
+table td{
+	font-size: 80%;
+}
+.btn_right{
+	float:right;
+	margin-right:1px;
+}
+
+.btn_left{
+	float:left;
+	margin-right:3px;
+}
+
+.fright{
+	float:right;
+}
+
+.fleft{
+	float:left;
+}
+
+.clear{
+	clear: both;
+}
+
+.btn_orange{	
+	height:51px;
+	min-width:252px;
+	background: url("../images/home_btn_orange.png") no-repeat center;
+}
+
+#header {
+	height: 25px;
+}
+
+#header span.btn_back{
+	float:left;
+}
+
+#cover_icon{
+	width:60px;
+	height:56px;
+	background: url("../images/bg_cover_icon.png") no-repeat center;
+	position: absolute;
+	right:6px;
+	top:33px;
+	display:none;
+	z-index:999;
+	padding-top:2px;
+}
+
+.btn_localtion{
+	background: url("../images/btn_location.png") no-repeat;
+	width: 130px;
+	height: 40px;
+	float:left;
+}
+
+.btn_localtion a{
+	font-size: 130%;
+	padding-top:3px;
+	display:block;
+	color:white;
+	cursor:pointer;
+}
+
+#system-message-container{
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	display:block;
+}
+
+.align_center{
+	text-align:center;
+}
+
+
+.row{
+	margin: 0px 0px 5px 0px;
+	padding: 0px 5px 0px 5px;
+	position:relative;
+}
+
+.row_list{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	background: url('../images/item_bg.jpg') bottom left repeat-x;
+}
+
+.row_list:hover{
+	background:none;
+}
+
+
+.row_space{
+	margin-top: 20px
+}
+
+.header_title{
+	font-size:160%;
+	color:white;
+	font-weight:bold;
+	display: block;
+}
+
+.deal_title{
+	font-size: 130%;
+	padding-top:5px;
+	padding-right:33px;
+	display:block;
+	min-height:40px;
+}
+
+.arrow_corner{
+	position: absolute;
+	right:0px;
+	top:35px;
+	background: url('../images/icon_arrow_corner.png') no-repeat;
+	padding-right:40px;
+	padding-bottom:52px;
+}
+
+.day_left{
+	color:white;
+}
+
+.deal_status{
+	color:white;
+	font-size:170%;
+	font-weight:bold;
+	display:block;
+	padding-top:13px;
+}
+
+a.deal_status_inactive:hover{
+	color:white;
+	cursor:text
+}
+
+/*-------------------------------------------*/
+
+.green_bg{
+	background: green;
+	line-height: 26px;	
+}
+
+.white_bg{
+	background: white;
+	line-height: 26px;	
+}
+
+#cover_list_location .green_bg a{
+	color: white;
+}
+
+#cover_list_location .green_bg:hover{
+	background: green;
+}
+
+ #cover_list_location .white_bg:hover{
+	background: black;
+}
+
+#cover_list_location .green_bg:hover a, #cover_list_location .white_bg:hover a{
+	color: white;
+}
+
+#cover_list_location .green_bg:hover a:hover{
+	color: black;
+}
+
+#cover_list_location .white_bg:hover a:hover{
+	color: green;
+}
+
+#cover_list_location a{
+	font-size: 120%;
+	text-decoration: none;
+	font-weight:bold;
+	color:gray;
+}
+
+.img_middle{
+	vertical-align: middle;
+}
+
+.for_a_friend{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#counter{
+	padding-left:0px;
+	margin-left:0px;
+}
+
+.item_deal{
+	cursor: pointer;
+}
+
+.item_deal a.img_list{
+	float:left;
+	margin-right: 8px;
+	border: 1px solid #CCCCCC;
+	padding-right: 0px;	
+}
+
+.img_list img{
+	width:120px;
+	height:75px;
+	*width:120px;
+	*height:75px;
+	border: 2px solid white;
+	position: relative;
+	margin-top: 0px;
+	padding: 0px;
+	top: 0px;
+}
+
+.item_deal a.bigger_sign{
+	padding-right:17px;
+	padding-bottom:30px;
+	display: block;
+	position: absolute;
+	right:0px;
+	top:27px;
+	background: url('../images/bigger_sign.png') no-repeat;
+}
+
+.item_deal a, .item_deal span{
+	font-size:105%;
+	padding-right: 7px;
+	display: block;
+}
+
+.discount{
+	height:28px;
+	background: url('../images/discount_bg.png') no-repeat;
+	left: 61px;
+    position: absolute;
+    width: 74px;
+    top: 52px;
+}
+
+.discount span{
+	color: white;
+    display: block;
+    font-weight: bold;
+    padding-left: 11px;
+    padding-top: 4px;
+}
+
+
+/*---------------------------------------*/
+
+.text, .profile-edit input, #member-profile input{
+	border: 1px solid #CCCCCC;
+    height: 25px;
+    width: 205px;
+  
+    color:#666666;
+    padding-left: 10px;
+}
+
+#member-profile input[type=radio]{
+	width: auto;
+	height: auto;
+}
+
+.button{
+	background: url('../images/btn_blue_bg.png') no-repeat;
+	width:96px;
+	height:35px;
+	color: white;
+	font-weight:bold;
+	font-size:120%;
+	border: none;
+}
+
+.button_big{
+	background: url('../images/btn_blue_big_bg.png') no-repeat;
+	width:169px;
+	height:35px;
+	color: white;
+	font-weight:bold;
+	font-size:120%;
+	border: none;
+}
+
+form td{
+	height:55px;
+}
+
+.error, .review_errors{
+	color: red;
+	font-size:100%;
+}
+
+.white{color:white}
+
+.detail_note{
+	margin: auto;
+	width:252px;
+}
+
+.left_checkout{
+	float:left;
+	width:68%;
+}
+
+.right_checkout{
+	float:right;
+	width:30%;
+	text-align: center;
+}
+
+.smalltext{
+	color:gray;
+}
+
+.text_small{
+	width: 50px;
+	height:25px;
+	padding-left:5px;
+	border:1px solid #CCCCCC;
+}
+
+.orange{
+	color:orange;
+}
+
+.buyfor_friend {
+	float:right;
+	padding-top:2px;
+	display:block
+}
+
+.maincol_full_cont, .deal{
+	margin: 20px;
+	display: block;
+}
+
+.text_area, select, textarea{
+	border: 1px solid #CCCCCC;
+	font-family: Arial;
+	color:#666666;
+	font-size:100%;
+}
+
+.calendar .button{
+	background-image: none;
+}
+
+.button2-left {float:left; width:100px}
+legend{
+	font-weight: bold;
+}
+
+.haft_left{
+	float: left;
+	width:49%
+}
+
+.haft_right{
+	float: right;
+	width:49%
+}
+
+.margin_auto{
+ 	margin-left:auto;
+ 	margin-right:auto;
+ }
+
+ 
+.rating {
+    float:right;
+}
+
+.rating span {
+    float:left;
+    width:13px;
+    height:12px;
+}
+
+.rating .ratingStar {
+    background: url(../images/emptystar.gif) no-repeat;
+}
+
+.rating .filled {
+    background: url(../images/filledstar.gif) no-repeat;
+}
+
+.delivery_detail_edit form td {
+	height:auto;
+}

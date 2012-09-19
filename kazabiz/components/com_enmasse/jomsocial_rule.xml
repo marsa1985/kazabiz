@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jomsocial>
+     <component>com_enmasse</component>
+     <rules>
+          <rule>
+    	      <name>Enmasse confirm Deal</name>
+    	      <description>Give points when user confirm Deal in Enmasse components.</description>
+    	      <action_string>enmasse.deal.confirm</action_string>
+    	      <publish>true</publish>
+    	      <points>1</points>
+    	      <access_level>1</access_level>       
+          </rule>
+          
+          <rule>
+    	      <name>Enmasse referral</name>
+    	      <description>Give points when have referral in Enmasse components.</description>
+    	      <action_string>enmasse.referral.add</action_string>
+    	      <publish>true</publish>
+    	      <points>1</points>
+    	      <access_level>1</access_level>       
+          </rule>
+     </rules>
+</jomsocial>

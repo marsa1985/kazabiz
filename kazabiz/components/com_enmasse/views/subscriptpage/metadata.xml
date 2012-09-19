@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+<metadata>
+	<view title="Subscription page" >
+		<message><![CDATA[To Display the Subscription page]]></message>
+	</view>
+	<state>
+		<name>Subscription page</name>
+		<description>To Display the Subscription page</description>
+	</state>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: metadata.xml 8178 2007-07-23 05:39:47Z eddieajau $ -->
+<metadata>
+	<view title="My Orders" >
+		<message><![CDATA[For users to see what orders they have purchased]]></message>
+	</view>
+	<state>
+		<name>My Orders</name>
+		<description>For users to see what orders they have purchased</description>
+	</state>
+</metadata>

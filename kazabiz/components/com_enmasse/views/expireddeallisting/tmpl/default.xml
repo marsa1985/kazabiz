@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ENMASSE_LISTEXPIRED_VIEW_DEFAULT_TITLE">
+		<message>COM_ENMASSE_LISTEXPIRED_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="List of Expired Deal" >
+		<message><![CDATA[To list all the expired deal.]]></message>
+	</view>
+	<state>
+		<name>List of Expired Deal</name>
+		<description>To list all the expired deal.</description>
+	</state>
+</metadata>
+
